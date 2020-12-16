@@ -10,7 +10,10 @@ export class GithubCalendarController {
     getGithubCalendar(
         @Param('user') user,
         @Param('year') year
-    ) {
+    ): Promise<{
+        textContributions: string;
+        calendar: any;
+    }> {
         return this.githubCalendarService.getSvgFormat(user, year);
     }
 }
