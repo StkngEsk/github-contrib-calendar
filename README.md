@@ -7,7 +7,7 @@ Here frontend project developed with Angular [Demo](https://github-contrib-calen
 
 
 ### Installation
-This project was generated with Nest CLI v7.5.3 and node version v12.7.0
+This project was generated with `Nest CLI v7.5.3` and `node version v12.7.0`
 
 Install NPM dependencies
 ```sh
